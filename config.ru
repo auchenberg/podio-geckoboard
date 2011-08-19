@@ -1,3 +1,3 @@
-require 'inbox'
+require './inbox'
 
 run Sinatra::Application
