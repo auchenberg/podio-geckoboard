@@ -1,2 +1,3 @@
-require './pinbox'
+require 'inbox'
+
 run Sinatra::Application
