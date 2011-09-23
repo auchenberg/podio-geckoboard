@@ -12,7 +12,7 @@ get '/' do
   user = Podio::UserStatus.current  
   puts "#{user.inbox_new}"
 
-  { :item => user.inbox_new, :max => { :text => 'max inbox', :value => "100" }, :min => { :text => 'min inbox', :value => "0" } }.to_json
+  { :item => user.inbox_new, :max => { :text => 'max inbox', :value => "30" }, :min => { :text => 'min inbox', :value => "0" } }.to_json
 
 
 
